@@ -1,0 +1,8 @@
+.Navbar{
+    background-color:rgb(127, 127, 186);
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around ;
+}
