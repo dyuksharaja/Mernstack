@@ -13,6 +13,7 @@ const Navbar = () => {
                <li><Link to='/service'>Services</Link></li>
                 <li><Link to='/useState'>useState</Link></li>
                 <li><Link to='/UseEffect'>UseEffect</Link></li>
+                 <li><Link to='/Form'>Form</Link></li>
             </ul>
             </nav>
     </div>

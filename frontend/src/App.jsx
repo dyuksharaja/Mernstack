@@ -9,6 +9,7 @@ import {Routes,Route} from "react-router-dom";
 import Contact from "./assets/components/page/Contact";
 import Service from "./assets/components/page/Service";
 import UseEffect from "./hooks/UseEffect";
+import Form from "./assets/components/Form";
 const App=()=>{
   return(
   <>
@@ -28,9 +29,9 @@ const App=()=>{
     <Route path="/service"element={<Service/>}/>
     <Route path="/useState"element={<UseState/>}/>
     <Route path="/UseEffect"element={<UseEffect/>}/>
+    <Route path="/Form"element={<Form/>}/>
   </Routes>
  </>   
   )
-
 }
 export default App;
