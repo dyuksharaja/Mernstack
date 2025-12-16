@@ -10,6 +10,7 @@ import Contact from "./assets/components/page/Contact";
 import Service from "./assets/components/page/Service";
 import UseEffect from "./hooks/UseEffect";
 import Form from "./assets/components/Form";
+import Todo from "./assets/components/Todo";
 const App=()=>{
   return(
   <>
@@ -30,6 +31,7 @@ const App=()=>{
     <Route path="/useState"element={<UseState/>}/>
     <Route path="/UseEffect"element={<UseEffect/>}/>
     <Route path="/Form"element={<Form/>}/>
+    <Route path="/Todo"element={<Todo/>}/>
   </Routes>
  </>   
   )
